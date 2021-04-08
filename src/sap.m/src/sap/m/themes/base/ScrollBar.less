@@ -3,13 +3,11 @@
 /* Base theme                             */
 /* ====================================== */
 
-:root {
-    scrollbar-color: rgba(0,0,0,.5);
-    scrollbar-width: thin;
-}
 
 .sapMScrollBarTouch {
 	-webkit-overflow-scrolling: auto;
+	scrollbar-color: var(--sapIllus_StrokeDetailColor) var(--sapIllus_BackgroundColor);
+    scrollbar-width: thin;
 }
 
 .sapMScrollBarTouch ::-webkit-scrollbar {
@@ -33,6 +31,8 @@
 
 html.sap-desktop.sapUiNativeScrollbars .sapMScrollBarOuterDiv {
 	display: none;
+	scrollbar-color: var(--sapIllus_StrokeDetailColor) var(--sapIllus_BackgroundColor);
+    scrollbar-width: thin;
 }
 
 .sapMScrollBarInnerDiv {
